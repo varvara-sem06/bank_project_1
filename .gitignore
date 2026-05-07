@@ -1,0 +1,30 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Окружение
+.env
+
+# Кеш и временные файлы
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Линтеры
+.mypy_cache/
+.dmypy.json
+dmypy.json
