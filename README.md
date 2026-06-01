@@ -1,33 +1,27 @@
-# Анализатор банковских транзакций
+# Bank Transaction Analyzer
 
-Приложение для анализа банковских транзакций из Excel-файла. Генерирует JSON-данные для веб-страниц, предоставляет сервисы поиска и формирует отчеты.
+An application for analyzing bank transactions from an Excel file. Generates JSON data for web pages, provides search services, and produces reports.
 
-## 📋 Функциональность
+## Features
 
-### Веб-страницы
-- **Главная страница** — приветствие по времени суток, информация по картам, топ-5 транзакций, курсы валют и цены акций
+### Web Pages
 
-### Сервисы
-- **Выгодные категории кешбэка** — топ-3 категории с наибольшим кешбэком
-- **Поиск по описанию** — поиск транзакций по тексту (без учета регистра)
-- **Поиск по телефонным номерам** — поиск транзакций с номерами телефонов в описании
+- **Main page** — time-of-day greeting, card information, top 5 transactions, currency rates, and stock prices
 
-### Отчеты
-- **Траты по дням недели** — распределение расходов по дням
-- **Траты в рабочий/выходной день** — сравнение трат в будни и выходные
+### Services
 
----
+- **Cashback categories** — top 3 categories with the highest cashback
+- **Search by description** — find transactions by text (case-insensitive)
+- **Search by phone number** — find transactions containing phone numbers in the description
 
-## 🚀 Установка
+### Reports
 
-### 1. Клонируйте репозиторий
-```bash
-git clone <url-репозитория>
-cd transaction-analyzer
+- **Spending by weekday** — expense distribution by day of the week
+- **Working day vs. weekend spending** — comparison of weekday and weekend expenses
 
-📝 Примечания
+### Notes
 
-Данные фильтруются с начала месяца до указанной даты
-Кешбэк рассчитывается как 1 рубль на каждые 100 рублей трат
-Поиск по описанию нечувствителен к регистру
-Поддерживаются разные форматы телефонных номеров: +7 (900) 000-00-00, 89000000000
+Data is filtered from the beginning of the month to the specified date
+Cashback is calculated as 1 ruble per 100 rubles spent
+Search by description is case-insensitive
+Supports various phone number formats: +7 (900) 000-00-00, 89000000000, etc.
